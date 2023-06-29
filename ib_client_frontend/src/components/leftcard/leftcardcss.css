@@ -1,0 +1,84 @@
+:root {
+    --break-line: #BA2D0B;
+    --head-txt: #8c8c8a;
+    --name-txt: #BA2D0B;
+    --header: #F8F7F3;
+    --footer: #272727;
+    --main-txt: #333;
+    --main-bg: white;
+    --alt-text: #BA2D0B;
+    --alt-bg: white;
+    --card-bg: #19535F;
+    --card-txt: white;
+    --border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .leftCard {
+    display: flex;
+    flex-direction: row;
+    max-height: 30%;
+    width: 100%;
+    height: 25%;
+    object-fit: fill;
+    background-color: var(--header);
+    margin-bottom: 50px;
+  }
+  
+  .leftContent {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+  }
+  
+  
+  .leftImgDiv {
+    width: 50%;
+    margin-right: 0px;
+  }
+  
+  .pLeft {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: light;
+    font-weight: bold;
+    font-size: x-small;
+  
+  }
+  
+  .leftDetail {
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+  }
+  
+  .leftImg {
+    height: auto;
+    width: 700px;
+  }
+  
+  .leftDesc {
+    font-family: 'Diphylleia', serif;
+    color: var(--footer);
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .topCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 30%;
+    width: 100%;
+    height: 25%;
+    object-fit: fill;
+    margin-bottom: 20px;
+  }
+  

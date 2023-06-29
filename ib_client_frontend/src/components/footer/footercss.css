@@ -11,13 +11,18 @@
     --card-bg: #19535F;
     --card-txt: white;
     --border-radius: 50px;
-    font-family: 'Inter', sans-serif;
   }
   
-.homeDiv {
-    padding: 0px;
-    margin: 0px;
+  footer {
     display: flex;
-    flex-direction: column;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--head-txt);
+    margin-top: 5%;
+    color: white;
+    background-color: var(--footer);
+    width: auto;
+    font-family: 'Diphylleia', serif;
+    ;
   }
-  
