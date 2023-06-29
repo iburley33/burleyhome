@@ -2,6 +2,7 @@ import "./App.css";
 import {Routes, Route} from 'react-router-dom';
 import Gallery from "./pages/gallery/Gallery";
 import Profile from "./pages/profile/Profile";
+import Landing from "./pages/landing/Landing"
 
 function App() {
   return (
