@@ -8,14 +8,18 @@ function Topcard({ image, title, description, link, detail }) {
 
     <div className='topCard'>
       <div className='topImgDiv'>
-          <img src={image} class='topImg'></img>
+        <img src={image} class='topImg'></img>
       </div>
       <div className='topContent'>
-        <p class="pTop">{title}</p>
-        <a href={link} class='topLink'>
-          <h1 class='topDesc'>{description}</h1>
-        </a>
-        <h5 class='topDetail'>{detail}</h5>
+        <div className='topDescDiv'>
+          <p class="pTop">{title}</p>
+          <a href={link} class='topLink'>
+            <h1 class='topDesc'>{description}</h1>
+          </a>
+        </div>
+        <div className='topDetDiv'>
+          <h5 class='topDetail'>{detail}</h5>
+        </div>
       </div>
     </div>
   );
