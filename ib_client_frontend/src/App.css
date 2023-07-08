@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -37,6 +41,3 @@
   }
 }
 
-a {
-  text-decoration: none;
-}

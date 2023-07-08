@@ -81,4 +81,7 @@
     object-fit: fill;
     margin-bottom: 20px;
   }
+  a {
+    text-decoration: none;
+  }
   

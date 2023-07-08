@@ -1,5 +1,6 @@
 import React from 'react';
-import './leftcardcss.css'
+import './leftcardcss.css';
+import { Link } from "react-router-dom";
 
 function Leftcard({ image, title, description, link, detail }) {
   console.log({ image, title, description, link, detail });
@@ -8,9 +9,9 @@ function Leftcard({ image, title, description, link, detail }) {
 
     <div className='leftCard'>
       <div className='leftImgDiv'>
-        <a href={link} class='leftImgLink'>
+       <Link to={link}>
           <img src={image} class='leftImg'></img>
-        </a>
+        </Link>
       </div>
       <div className='leftContent'>
         <p class="pLeft">{title}</p>
