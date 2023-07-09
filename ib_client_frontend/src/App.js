@@ -4,10 +4,12 @@ import Gallery from "./pages/gallery/Gallery";
 import Profile from "./pages/profile/Profile";
 import Landing from "./pages/landing/Landing";
 import Store from "./pages/store/Store";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/gallery" element={<Gallery />} />
