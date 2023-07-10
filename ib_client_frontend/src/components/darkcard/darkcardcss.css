@@ -11,7 +11,6 @@
     margin-top: 50px;
     color: white;
   }
-
   .darkContent {
     display: flex;
     flex-direction: column;
@@ -24,6 +23,8 @@
   }
 
 
+  
+  
   .darkImgDiv {
     width: 50%;
     margin-right: 0px;
@@ -31,6 +32,9 @@
 
 
 
+  
+
+  
   .darkDetail {
     font-family: 'Quicksand', sans-serif;
     color: white;
@@ -43,11 +47,13 @@
     text-align: left;
   }
 
+  
   .darkImg {
     height: auto;
     width: 700px;
   }
 
+  
   .darkDesc {
     font-family: 'Diphylleia', serif;
     color: white;
@@ -61,3 +67,7 @@
   }
 
 
+  a {
+    text-decoration: none;
+  }
+  

@@ -2,6 +2,7 @@ import React from 'react';
 import "./landingcss.css"
 import TopCard from '../../components/topcard/TopCard';
 import LeftCard from '../../components/leftcard/LeftCard'
+import DarkCard from '../../components/darkcard/DarkCard'
 import placeholder from '../../assets/imgs/burley-home.webp'
 import DarkCard from '../../components/darkcard/DarkCard';
 
