@@ -1,26 +1,32 @@
 import React from 'react';
 import "./headercss.css"
+import { useNavigate } from 'react-router-dom';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Header({ currentPage, handlePageChange }) {
+  const navigate = useNavigate();
+
+  function handleNav() {
+    navigate('/')
+  }
   return (
     <header>
       <div class='headTop'>
         SHOP TANYA'S CURATED LOOKS FOR THE SEASON
       </div>
       <div className='headMain'>
-        <h3 class='brand'>
+        <h3 onClick={handleNav} class='brand'>
           BURLEY HOME
         </h3>
         <ul>
           <li className='nav-link'>
             <a
-              href="/"
-              onClick={() => handlePageChange('Landing')}
+              href="/design"
+              onClick={() => handlePageChange('Design')}
               // This is a conditional (ternary) operator that checks to see if the current page is "Home"
               // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-              className={currentPage === 'Landing' ? 'nav-link active' : 'nav-link'}
+              className={currentPage === 'Design' ? 'nav-link active' : 'nav-link'}
             >
               Home
             </a>
