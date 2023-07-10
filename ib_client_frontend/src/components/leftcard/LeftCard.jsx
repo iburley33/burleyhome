@@ -10,7 +10,7 @@ function Leftcard({ image, title, description, link, detail }) {
     <div className='leftCard'>
       <div className='leftImgDiv'>
        <Link to={link}>
-          <img src={image} class='leftImg'></img>
+          <img src={image} class='leftImg' alt='portfolio'></img>
         </Link>
       </div>
       <div className='leftContent'>

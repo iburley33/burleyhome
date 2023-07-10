@@ -1,65 +1,63 @@
 
-.darkCard {
-  display: flex;
-  flex-direction: row;
-  max-height: 30%;
-  width: 100%;
-  height: 25%;
-  object-fit: fill;
-  background-color: var(--footer);
-  margin-bottom: 50px;
-  margin-top: 50px;
-  color: white;
-}
+  .darkCard {
+    display: flex;
+    flex-direction: row;
+    max-height: 30%;
+    width: 100%;
+    height: 25%;
+    object-fit: fill;
+    background-color: var(--footer);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: white;
+  }
 
-.darkContent {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-  align-items: start;
-  justify-content: center;
-  margin-left: 3%;
-  margin-right: 10%;
-  padding-left: 10px;
-}
-
-
-.darkImgDiv {
-  width: 50%;
-  margin-right: 0px;
-}
+  .darkContent {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: start;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 10%;
+    padding-left: 10px;
+  }
 
 
+  .darkImgDiv {
+    width: 50%;
+    margin-right: 0px;
+  }
 
-.darkDetail {
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-  font-size: 15px;
-  font-weight: lighter;
-  padding-top: 0px;
-  padding-right: 0px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  text-align: left;
-}
 
-.darkImg {
-  height: auto;
-  width: 700px;
-}
 
-.darkDesc {
-  font-family: 'Diphylleia', serif;
-  color: white;
-  font-size: 40px;
-  font-weight: lighter;
-  padding-top: 0px;
-  padding-right: 100px;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  text-align: left;
-}
+  .darkDetail {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
 
-a {
-  text-decoration: none;
-}
+  .darkImg {
+    height: auto;
+    width: 700px;
+  }
+
+  .darkDesc {
+    font-family: 'Diphylleia', serif;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 0px;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+
