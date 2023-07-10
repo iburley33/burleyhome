@@ -22,10 +22,11 @@
     padding-left: 10px;
   }
 
-
-  
   
   .darkImgDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
     margin-right: 0px;
   }
