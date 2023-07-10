@@ -8,7 +8,7 @@ function Topcard({ image, title, description, link, detail }) {
 
     <div className='topCard'>
       <div className='topImgDiv'>
-        <img src={image} class='topImg' alt='portfolio picture'></img>
+        <img src={image} class='topImg' alt='portfolio'></img>
       </div>
       <div className='topContent'>
         <div className='topDescDiv'>
