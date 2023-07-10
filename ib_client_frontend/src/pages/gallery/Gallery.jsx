@@ -1,9 +1,10 @@
 /* Framwork tools & CSS */
 import React from "react"
 import './gallerycss.css'
+import Subhead from "../../components/subhead/Subhead"
 
 export default function Gallery() {
     return (
-        <div>Gallery Page</div>
+        <Subhead pageName={'The Gallery'}/>
     )
 }

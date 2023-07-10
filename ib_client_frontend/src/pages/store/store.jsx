@@ -1,7 +1,10 @@
 /* Framework Tools & CSS */
 import React from "react";
 import "./storecss.css";
+import Subhead from "../../components/subhead/Subhead";
 
 export default function Store() {
-  return <div>Store Page</div>;
+  return (        
+    <Subhead pageName={'Shop'}/>
+  );
 }

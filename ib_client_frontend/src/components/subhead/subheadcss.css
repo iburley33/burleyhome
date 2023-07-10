@@ -1,0 +1,13 @@
+.subheadDiv {
+    background-color: var(--header);
+}
+.subhead {
+    font-family: 'Diphylleia', serif;
+    font-size: 36px;
+    font-weight: lighter;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    text-align:left;
+}
