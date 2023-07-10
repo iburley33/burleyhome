@@ -1,19 +1,3 @@
-:root {
-    --break-line: #BA2D0B;
-    --head-txt: #8c8c8a;
-    --name-txt: #BA2D0B;
-    --header: #F8F7F3;
-    --footer: #272727;
-    --main-txt: #333;
-    --main-bg: white;
-    --alt-text: #BA2D0B;
-    --alt-bg: white;
-    --card-bg: #19535F;
-    --card-txt: white;
-    --border-radius: 50px;
-    font-family: 'Inter', sans-serif;
-  }
-  
   ul {
     display: flex;
     flex-direction: row;
