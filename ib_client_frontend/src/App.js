@@ -6,6 +6,7 @@ import Landing from "./pages/landing/Landing";
 import Store from "./pages/store/store";
 import Header from "./components/header/Header";
 import Design from "./pages/design/Design";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/store" element={<Store />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
