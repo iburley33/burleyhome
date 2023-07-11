@@ -5,6 +5,6 @@ import Subhead from "../../components/subhead/Subhead"
 
 export default function Gallery() {
     return (
-        <Subhead pageName={'The Gallery'}/>
+        <Subhead pageName='The Gallery'/>
     )
 }

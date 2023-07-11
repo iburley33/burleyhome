@@ -2,7 +2,6 @@ import React from 'react';
 import './subheadcss.css';
 
 function Subhead({ pageName }) {
-  console.log({ pageName });
 
   return (
 

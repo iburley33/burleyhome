@@ -5,6 +5,6 @@ import Subhead from "../../components/subhead/Subhead";
 
 export default function Profile() {
   return(
-    <Subhead pageName={'Profile'}/>
+    <Subhead pageName='Profile'/>
   );
 }
