@@ -19,7 +19,7 @@ export default function Landing() {
       link={'/gallery'} />
     </div>
     <div class='base'>
-      <DarkCard title={'Shop Burley Home'} detail={'Explore our brand collaborations. Everything from sofas to scents'} />
+      <DarkCard title={'Shop Burley Home'} detail={'Explore our brand collaborations. Everything from sofas to scents'} link={'/store'} />
     </div>
     </div>
 

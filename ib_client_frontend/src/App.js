@@ -5,6 +5,7 @@ import Profile from "./pages/profile/Profile";
 import Landing from "./pages/landing/Landing";
 import Store from "./pages/store/Store";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/store" element={<Store />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
