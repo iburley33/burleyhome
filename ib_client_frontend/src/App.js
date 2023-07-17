@@ -5,6 +5,7 @@ import Profile from "./pages/profile/Profile";
 import Landing from "./pages/landing/Landing";
 import Store from "./pages/store/Store";
 import Header from "./components/header/Header";
+import Design from "./pages/design/Design";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/design" element={<Design />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/store" element={<Store />} />
