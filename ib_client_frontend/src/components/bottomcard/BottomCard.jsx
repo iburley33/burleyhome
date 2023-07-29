@@ -1,10 +1,14 @@
 import React from 'react';
 import "./bottomcardcss.css";
 import Slider from '../slider/Slider';
-
+import { useNavigate } from 'react-router-dom';
 
 function Bottomcard({ image, detail, description, title, link }) {
+  const navigate = useNavigate();
 
+  function handleNav() {
+    navigate(link)
+  }
 
   return (
 
@@ -12,9 +16,7 @@ function Bottomcard({ image, detail, description, title, link }) {
 
       <div className='bottomContent'>
         <div className='bottomTitleDiv'>
-          <a href={link} class='bottomLink'>
-            <h1 class='bottomTitle'>{title}</h1>
-          </a>
+            <h1 onClick={handleNav} class='bottomTitle'>{title}</h1>
         </div>
         <div className='bottomDetDiv'>
           <h5 class='bottomDetail'>{detail}</h5>
