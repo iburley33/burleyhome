@@ -22,7 +22,6 @@
   }
   
   .headTop {
-    width: 100%;
     display: flex;
     flex-direction: row;
     background-color: var(--header);
@@ -38,7 +37,6 @@
   }
   
   .headMain {
-    width: 100%;
     display: flex;
     flex-direction: row;
     background-color: white;
