@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import ThreeFrame from '../threeframe/ThreeFrame';
 
 
-function DarkCard({ image, img1, img2, img3, img4, img5, title, description, link, link1, link2, link3, link4, link5, detail }) {
+function DarkCard({ title, link, detail }) {
   const navigate = useNavigate();
 
   function handleNav() {
