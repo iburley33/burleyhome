@@ -6,10 +6,6 @@ import { useNavigate } from 'react-router-dom';
 function Bottomcard({ image, detail, description, title, link }) {
   const navigate = useNavigate();
 
-  function handleNav() {
-    navigate(link)
-  }
-
   return (
 
     <div className='bottomCard'>
