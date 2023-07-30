@@ -16,7 +16,7 @@ function Bottomcard({ image, detail, description, title, link }) {
 
       <div className='bottomContent'>
         <div className='bottomTitleDiv'>
-            <h1 onClick={handleNav} class='bottomTitle'>{title}</h1>
+            <h1 onClick={()=>navigate(link)} class='bottomTitle'>{title}</h1>
         </div>
         <div className='bottomDetDiv'>
           <h5 class='bottomDetail'>{detail}</h5>
