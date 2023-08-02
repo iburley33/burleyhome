@@ -1,33 +1,44 @@
-import React from 'react';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
+import './slidercss.css';
+import { motion } from 'framer-motion';
+import { useRef, useEffect, useState } from 'react';
+import image1 from '../../assets/imgs/1.jpg';
+import image2 from '../../assets/imgs/2.jpg';
+import image3 from '../../assets/imgs/3.jpg';
+import image4 from '../../assets/imgs/4.jpg';
+import image5 from '../../assets/imgs/5.jpg';
+import image6 from '../../assets/imgs/1.jpg';
 
-const Example = () => {
-    const images = [
-        "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-        "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-        "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    ];
+function Slider() {
 
-    return (
-        <Slide>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[0]})` }}>
-                    <span>Slide 1</span>
-                </div>
-            </div>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[1]})` }}>
-                    <span>Slide 2</span>
-                </div>
-            </div>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[2]})` }}>
-                    <span>Slide 3</span>
-                </div>
-            </div>
-        </Slide>
-    );
-};
+  const [ width, setWidth] = useState(0);
+  const carousel = useRef();
 
-export default Example;
+  useEffect(() => {
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+  }, []);
+  
+  const images  = [image1, image2, image3, image4, image5, image6];
+
+  return (
+    <div className="App">
+      <motion.div ref={carousel} className='carousel' whileTap={{cursor: 'grabbing'}}>
+        <motion.div 
+        drag='x' 
+        dragConstraints={{ right:0, left: -width }}
+        className='inner-carousel'>
+          {images.map((image) => {
+            return (
+              <motion.div className='item' key={image}>
+                <img src={image} alt="" key={image}/>
+              </motion.div>
+            );
+          })}
+        </motion.div>
+      </motion.div>
+    </div>
+  );
+}
+
+
+
+export default Slider;
