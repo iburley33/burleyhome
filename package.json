@@ -6,8 +6,10 @@
   "scripts": {
     "start": "concurrently \"cd ib_client_frontend && npm start\" \"cd ib_server_backend && npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "(cd ib_client_frontend && npm install) && (cd ib_server_backend && npm install)" 
-   },
+    "postinstall": "(cd ib_client_frontend && npm install) && (cd ib_server_backend && npm install)",  
+    "build": "cd ib_client_frontend && npm run build"
+  
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
