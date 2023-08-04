@@ -1,6 +1,6 @@
 /* Framework tools & CSS */
 import React from "react";
-import "./profilecss.css";
+import "./storecss.css";
 import Subhead from "../../components/subhead/Subhead";
 
 export default function Store() {
